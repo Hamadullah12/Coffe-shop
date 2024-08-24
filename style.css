@@ -150,6 +150,26 @@ h1 em{
     padding:5px ;
 }
 
+.image-text{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px 40px;
+    margin-top: 30px;
+}
+
+.image-text img{
+    width: 400px;
+    margin-right: 40px;
+}
+
+.image-text p{
+    font-size: x-large;
+    font-weight: 500;
+    margin-right: 30px;
+    text-align: justify;
+}
+
 
 /* 1000px */
 
@@ -197,6 +217,24 @@ h1 em{
     form {right: 0px;}
     to {right: 50px;}
 }
+/* image text */
+.image-text{
+    padding: 40px 10px;
+    margin-top: 30px;
+}
+
+.image-text img{
+    width: 33%;
+}
+
+.image-text p{
+    font-size: 2vh;
+    font-weight: 400;
+    padding: 0 20px;
+}
+
+
+
 /* coffee */
 
 .coffee-container{
@@ -378,6 +416,24 @@ h1 em{
 .coffee-cup p{
     padding: 10px;
 }
+.image-text{
+    display: grid;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 60px;
+}
+.image-text img{
+    width: 140px;
+    display: block;
+    margin: 0 auto;
+}
 
+.image-text p{
+    font-size: 2.6vh;
+    font-weight: 300;
+    margin-right: 0;
+    text-align: justify;
+    padding-top: 20px;
+}
 
 }
